@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+
+    <style>
+        .container {
+            height: 400px;
+            max-width: 300px;            
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid black;
+        }
+
+        .item {
+            background-color: black;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: orange;
+            
+
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-between{
+            align-content: space-between;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3>stretch</h3>
+    <div class="container stratch">
+        <div class="item">Lorem Ipsum is therefore alwais free from</div>
+        <div class="item">Lorem Ipsum is therefore</div>
+        <div class="item">Lorem Ipsum is therefore alwais free</div>
+        <div class="item">Lorem Ipsum is therefore alwais free from repetition, injected humour, or non-characteristic words etc.</div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+    </div>
+
+    <h3>center</h3>
+    <div class="container stratch center">
+        <div class="item">Lorem Ipsum is therefore alwais free from</div>
+        <div class="item">Lorem Ipsum is therefore</div>
+        <div class="item">Lorem Ipsum is therefore alwais free</div>
+        <div class="item">Lorem Ipsum is therefore alwais free from repetition, injected humour, or non-characteristic words etc.</div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+    </div>
+
+    <h3>flex-start</h3>
+    <div class="container stratch flex-start">
+        <div class="item">Lorem Ipsum is therefore alwais free from</div>
+        <div class="item">Lorem Ipsum is therefore</div>
+        <div class="item">Lorem Ipsum is therefore alwais free</div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+    </div>
+
+    <h3>flex-end</h3>
+    <div class="container stratch flex-end">
+        <div class="item">Lorem Ipsum is therefore alwais free from</div>
+        <div class="item">Lorem Ipsum is therefore</div>
+        <div class="item">Lorem Ipsum is therefore alwais free</div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+    </div>
+
+    <h3>space-around</h3>
+    <div class="container stratch space-around">
+        <div class="item">Lorem Ipsum is therefore alwais free from</div>
+        <div class="item">Lorem Ipsum is therefore</div>
+        <div class="item">Lorem Ipsum is therefore alwais free</div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+    </div>
+
+    <h3>space-between</h3>
+    <div class="container stratch space-between">
+        <div class="item">Lorem Ipsum is therefore alwais free from</div>
+        <div class="item">Lorem Ipsum is therefore</div>
+        <div class="item">Lorem Ipsum is therefore alwais free</div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+        <div class="item">Lorem Ipsum is therefore </div>
+    </div>
+
+
+</body>
+
+</html>
