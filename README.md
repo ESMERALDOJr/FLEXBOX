@@ -1,4 +1,6 @@
 # FLEXBOX
+Aprendendo como criar um layout inteiramente responsivo sem necessitar de auxilio de framework, apenas utilizando CSS e sua propriedade Flexbox.
+
 ## Display-flex:
 Conhecendo e aplicando a propriedade de inicialização do flex container. Podemos transformar a tag em elemento do tipo flex container, e assim automaticamente todos
 os seus filhos diretos desta tag, tornam-se em flex items.
